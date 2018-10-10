@@ -10,7 +10,7 @@ public class Extra1 {
         Scanner ler = new Scanner(System.in);
         System.out.println("radio circulo: ");
         float radio=ler.nextFloat();
-
+//falta lonxitude!!!!!!
         float area;
         area = (float) (Math.PI*Math.pow(radio, 2));
         float volumen;
