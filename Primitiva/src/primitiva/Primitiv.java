@@ -5,6 +5,7 @@
  */
 package primitiva;
 
+import java.util.ArrayList;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
@@ -116,11 +117,13 @@ public class Primitiv extends javax.swing.JFrame {
         DefaultListModel numeros= new DefaultListModel();
         
         for (int j = 0; j < 6; j++) {
-            numeros.addElement((int)(Math.random()*50+1));
+            numeros.addElement((int)(Math.random()*49+1));
             Lista_numeros.setModel(numeros);
-            
-            
+                        
         }
+        
+        
+        
         for (int g = 0; g < 6; g++) {
             if (numeros.getElementAt(g).equals(num1)) {
                 cantidadAciertos++;
